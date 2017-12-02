@@ -1,13 +1,9 @@
 apply plugin: 'com.android.application'
-apply plugin: com.udacity.AssessmentPlugin
 
-ext.emailAddress = "rperedah@gmail.com"
-
-ext.projectID = "HelloAndroid"
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.android.helloandroid"
+        applicationId "com.example.android.tenniscourt"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
